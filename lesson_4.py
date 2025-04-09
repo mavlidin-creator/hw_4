@@ -212,13 +212,13 @@ def start_game():
     doc = Healer('Aibolit', 250, 5, 15)
     assistant = Healer('Dulittle', 300, 5, 5)
     berserk = Berserk('Guts', 260, 10)
-    popytka = Witcher('hfhf', 290, 0)
+    witcher = Witcher('Aleksey', 290, 0)
     hacker1 = Hacker('hackker', 280, 10)
     king = King('King', 350, 0)
     samurai = Samurai('Deadpool', 270, 10)
 
 
-    heroes_list = [warrior_1, doc, warrior_2, magic, berserk, assistant, popytka, hacker1, king, samurai]
+    heroes_list = [warrior_1, doc, warrior_2, magic, berserk, assistant, witcher, hacker1, king, samurai]
 
     show_statistics(boss, heroes_list)
     while not is_game_over(boss, heroes_list):
